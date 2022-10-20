@@ -1,0 +1,48 @@
+body {
+	background-color: #202020;
+	color: white;
+}
+.logo {
+	width: 150px;
+	max-width: 150px;
+	max-height: 150px;
+	margin: 25px 50px;
+}
+.flip {
+	filter: invert(1);
+}
+.container {
+	display: inline-block;
+	max-width: 800px;
+	text-align: center;
+}
+h1 {
+	font: bold 50px Courier New, monospace;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h2 {
+	font: 25px Verdana, sans-serif;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+h3 {
+	font: 20px Verdana, sans-serif;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+p {
+	font: 14px Verdana, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+.center-image {
+	text-align: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}

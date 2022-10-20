@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+	<title>Raspberry Pi Software | Spiff Industries</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>Raspberry Pi</h1>
+	<p>These two products were made for the <a href="https://www.raspberrypi.org/">Raspberry Pi</a> operating system known as <a href="https://www.raspberrypi.org/software/operating-systems/">"Raspbian"</a>, which is now simply called "Raspberry Pi OS."  This device is a great starting point for anyone new to programming, Linux, or embedded systems in general.  It must be noted that these products are in no way affiliated with <a href="https://www.raspberrypi.org/about/">The Raspberry Pi Foundation</a>. 
+	<a href="https://github.com/rbrutherford3/initpi"><h3><b>initpi</b></h3></a>
+	<p>This bash software is meant to run directly from the Raspbian Pi operating system.  It makes setting up user accounts and security configurations easy, especially if you are using the Raspberry Pi in a "headless" (no monitor or keyboard) setup.  The process is repeatable, so that one may easily reset their device back to a custom state when necessary (i.e.: bricking the system).</p>
+	<a href="https://github.com/rbrutherford3/customNOOBS"><h3><b>customNOOBS</b></h3></a>
+	<p>This software may work in conjunction with initpi to create an automated Raspbian installation package.  Basically, running the program prompts the user to indicate a bash or shell script to be run on the very first boot of the operating system.  The program then creates a NOOBS (new out-of-the-box software) package by downloading the latest versions of Raspbian and NOOBS, unpacking root.tar.xz, and placing a one-time reference to the boot script in the rc.local file.  All of this is to allow customization of the Raspbian experience.</p>
+</body>

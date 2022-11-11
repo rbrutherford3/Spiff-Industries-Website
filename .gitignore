@@ -8,3 +8,9 @@ pdfpublisher
 pdfpublisher/
 pizzapricer
 pizzapricer/
+taskmaster
+taskmaster/
+__pycache__/
+spiffindustries/__pycache__
+static/
+spiffindustries_config.py

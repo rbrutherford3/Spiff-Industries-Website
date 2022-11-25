@@ -14,3 +14,4 @@ __pycache__/
 spiffindustries/__pycache__
 static/
 spiffindustries_config.py
+recaptchav3.py

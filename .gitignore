@@ -16,3 +16,4 @@ static/
 spiffindustries_config.py
 recaptchav3.py
 *.tar.gz
+aws_sas.py

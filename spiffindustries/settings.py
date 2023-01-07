@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 from spiffindustries_config import SpiffIndustriesConfig
 from recaptchav3 import reCAPTCHAv3
+from aws_sas import AWS_SAS
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -134,3 +135,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 RECAPTCHA_SITE_KEY = reCAPTCHAv3.site_key
 RECAPTCHA_SECRET_KEY = reCAPTCHAv3.secret_key
+
+#Email settings details 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = AWS_SAS.aws_smtp_host
+EMAIL_USE_TLS = AWS_SAS.aws_use_tls
+EMAIL_PORT = AWS_SAS.aws_smtp_port
+EMAIL_HOST_USER = AWS_SAS.aws_access_key_id 
+EMAIL_HOST_PASSWORD = AWS_SAS.aws_secret_access_key

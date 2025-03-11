@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,6 @@ EMAIL_USE_TLS = AWS_SAS.aws_use_tls
 EMAIL_PORT = AWS_SAS.aws_smtp_port
 EMAIL_HOST_USER = AWS_SAS.aws_access_key_id 
 EMAIL_HOST_PASSWORD = AWS_SAS.aws_secret_access_key
+
+# Crispy forms setting
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
